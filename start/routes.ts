@@ -19,7 +19,20 @@
 */
 
 import Route from '@ioc:Adonis/Core/Route'
-
+/*
 Route.get('/', async () => {
   return { hello: 'world' }
 })
+*/
+
+//Post route to create a user
+Route.post('users', 'AuthController.register')
+
+//Post route to login as a user
+Route.post('users/login', 'AuthController.login')
+
+//Get user
+Route.get('user', 'AuthController.me').middleware(['auth'])
+
+//Update a user
+Route.put('users', 'AuthController.update').middleware(['auth'])
