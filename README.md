@@ -1,4 +1,4 @@
- This is an event registration api created sith [Adonis.js](https://adonisjs.com/). This basic purpose is to be able to register and manage events for the organizer, and to register to an event for the user.
+ This is an event registration api created with [Adonis.js](https://adonisjs.com/). This basic purpose is to be able to register and manage events for the organizer, and to register to an event for the user.
 
 ## Getting Started
 
